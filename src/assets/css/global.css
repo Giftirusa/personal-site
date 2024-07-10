@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: NeuePlak;
+  src: url(../fonts/Neue-Plak/light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: NeuePlak;
+  src: url(../fonts/Neue-Plak/regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: NeuePlak;
+  src: url(../fonts/Neue-Plak/medium.ttf);
+  font-weight: 500;
+}
+
+html { 
+  font-family: NeuePlak, sans-serif;
+  @apply text-light antialiased;
+  font-weight: 400;
+}
+
+body {
+  @apply overflow-x-hidden min-h-screen border-primary  bg-white;
+}
+
+p, span, a {
+  letter-spacing: 0.035em;
+}
+
+.nipx {
+  stroke: #fff;
+  stroke-width: 1.5;
+}
